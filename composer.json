@@ -1,0 +1,25 @@
+{
+    "name": "luisperez1/camp-gladiator",
+    "authors": [
+        {
+            "name": "Luis Perez",
+            "email": "lp1134@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "CG\\" : "src/CG/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CG\\Tests\\" : "tests/CG/"
+        }
+    }
+}
